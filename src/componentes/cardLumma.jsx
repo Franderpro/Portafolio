@@ -48,14 +48,6 @@ const CardLumma = () => {
       </div>
       <div className="px-6 pt-4 pb-2 flex gap-3">
         <a 
-          href="https://github.com/Diegocarque12/lumma.git" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300"
-        >
-          GitHub
-        </a>
-        <a 
           href="https://lumma-nine.vercel.app/" 
           target="_blank" 
           rel="noopener noreferrer"

@@ -47,21 +47,14 @@ const CardGui = () => {
       </div>
       <div className="px-6 pt-4 pb-2 flex gap-3">
         <a 
-          href="https://github.com/Diegocarque12/lumma.git" 
+          href="https://github.com/Javier-Vg/GUI" 
           target="_blank" 
           rel="noopener noreferrer"
           className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300"
         >
           GitHub
         </a>
-        <a 
-          href="https://lumma-nine.vercel.app/" 
-          target="_blank" 
-          rel="noopener noreferrer"
-          className="bg-blue-600 hover:bg-blue-500 text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300"
-        >
-          Demo
-        </a>
+      
       </div>
       <div className="px-6 pt-4 pb-2">
         <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">

@@ -24,7 +24,7 @@ import CardGui from './cardGui';
                   Desarrollador Full Stack Junior recién graduado, entusiasta por aprender y crecer en el mundo del desarrollo
                 </p>
                 <div className="flex gap-4">
-                    <button onClick={() => window.open('/cv/curriculum2025.pdf', '_blank')} className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Descargar CV</button>
+                    <a href="/CV/Frander-Rodriguez-curriculum-2025.pdf" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Descargar CV</a>
                     <button 
                       onClick={() => document.getElementById('contactModal').showModal()}
                       className="px-6 py-3 border-2 border-blue-700 text-blue-700 rounded-lg"                    >
@@ -91,19 +91,33 @@ import CardGui from './cardGui';
                     <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">CSS</span>
                     <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">MySQL</span>
                     <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">Django</span>
+                    <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">Liderazgo</span>
+                    <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">Creatividad</span>
+                    <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">Frontend</span>
+                    <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">Backend</span>
+                    <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">Resolución de Problemas</span>
+                    <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">Gestión del tiempo</span>
+                    <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">Adaptabilidad</span>
+                    <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">Análisis competitivo</span>
+                    <span className="px-4 py-2 bg-blue-100 text-blue-800 rounded-full">Inteligencia Emocional</span>
                   </div>
                 </div>
                 <div className="space-y-4">
+                  <h4 className="text-2xl font-semibold text-gray-800">Sobre mí </h4>
                   <p className="text-gray-600">
-                    Fuera del código, disfruto Bailar(competi en baile llegando a obtener el titulo de campeon mundial en categoria grupo), Salir a caminar, Ir a la playa. Como recién graduado,
-                    estoy comprometido con el aprendizaje continuo y emocionado por formar parte
-                    de la comunidad de desarrolladores.
+                    Fuera del ámbito profesional, soy un apasionado del baile artístico, habiendo alcanzado el título de campeón mundial en la categoría grupal. Disfruto de actividades al aire libre como caminatas y visitas a la playa. Como profesional recién graduado, mantengo un firme compromiso con el aprendizaje continuo y estoy entusiasmado por contribuir activamente a la comunidad de desarrollo de software.
                   </p>
                 
-                </div>
-              </div>
+                </div>              </div>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginTop: '30px' }}>
+            <div style={{ 
+              display: 'flex', 
+              flexDirection: window.innerWidth <= 768 ? 'column' : 'row',
+              justifyContent: 'center', 
+              gap: '20px', 
+              marginTop: '30px',
+              alignItems: 'center'
+            }}>
               <CardLumma />
               <CardGui />
             </div>
