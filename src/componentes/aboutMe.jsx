@@ -24,7 +24,7 @@ import CardGui from './cardGui';
                   Desarrollador Full Stack Junior recién graduado, entusiasta por aprender y crecer en el mundo del desarrollo
                 </p>
                 <div className="flex gap-4">
-                    <a href="/CV/Frander-Rodriguez-curriculum-2025.pdf" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Descargar CV</a>
+                    <a href="/CV/Frander-Rodrgiuez-curriculum-2025.pdf" className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Descargar CV</a>
                     <button 
                       onClick={() => document.getElementById('contactModal').showModal()}
                       className="px-6 py-3 border-2 border-blue-700 text-blue-700 rounded-lg"                    >
